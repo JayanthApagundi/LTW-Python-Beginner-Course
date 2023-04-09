@@ -1,0 +1,116 @@
+Python 3.8.5 (tags/v3.8.5:580fbb0, Jul 20 2020, 15:57:54) [MSC v.1924 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 2+3
+5
+>>> if 5>2:
+	print("Yes")
+
+	
+Yes
+>>> if 5>2:
+print("yes")
+SyntaxError: expected an indented block
+>>> if 5>2:
+		print("yes")
+
+		
+yes
+>>> #My name is Satya
+>>> """my name is satya
+and I study in 9th grade"""
+'my name is satya\nand I study in 9th grade'
+>>> 
+============================================================== RESTART: E:/LTW/Python- Beginners/Hello.py =============================================================
+Hello World!!!
+>>> a=6
+>>> 
+>>> a
+6
+>>> print(a)
+6
+>>> type(a)
+<class 'int'>
+>>> b=5.4
+>>> print(b)
+5.4
+>>> type(b)
+<class 'float'>
+>>> satya= 10
+>>> satya
+10
+>>> 2satya= 20
+SyntaxError: invalid syntax
+>>> @g= 15
+SyntaxError: invalid syntax
+>>> _g=15
+>>> print(_g)
+15
+>>> mj bb= 17
+SyntaxError: invalid syntax
+>>> mjbb=17
+>>> #Camel Case
+>>> firstName
+Traceback (most recent call last):
+  File "<pyshell#29>", line 1, in <module>
+    firstName
+NameError: name 'firstName' is not defined
+>>> #Pascal Case
+>>> FirstName
+Traceback (most recent call last):
+  File "<pyshell#31>", line 1, in <module>
+    FirstName
+NameError: name 'FirstName' is not defined
+>>> #snake case
+>>> first_name
+Traceback (most recent call last):
+  File "<pyshell#33>", line 1, in <module>
+    first_name
+NameError: name 'first_name' is not defined
+>>> print(a)
+6
+>>> print=10
+>>> print
+10
+>>> x=y=z=20
+>>> print(x)
+Traceback (most recent call last):
+  File "<pyshell#38>", line 1, in <module>
+    print(x)
+TypeError: 'int' object is not callable
+>>> x
+20
+>>> y
+20
+>>> z
+20
+>>> a=17
+>>> a
+17
+>>> fruits=['mango','apple']
+>>> fruits=a,b
+>>> a
+17
+>>> fruits=(h,k)
+Traceback (most recent call last):
+  File "<pyshell#47>", line 1, in <module>
+    fruits=(h,k)
+NameError: name 'h' is not defined
+>>> fruits=h,k
+Traceback (most recent call last):
+  File "<pyshell#48>", line 1, in <module>
+    fruits=h,k
+NameError: name 'h' is not defined
+>>> (a,b)=fruits
+>>> a
+17
+>>> print(a)
+Traceback (most recent call last):
+  File "<pyshell#51>", line 1, in <module>
+    print(a)
+TypeError: 'int' object is not callable
+>>> 
+============================================================== RESTART: E:/LTW/Python- Beginners/Hello.py =============================================================
+Hello World!!!
+mango
+apple
+>>> 
