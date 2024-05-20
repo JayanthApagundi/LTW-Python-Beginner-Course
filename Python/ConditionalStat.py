@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Apr 27 22:12:37 2024
-
-@author: Jayanth Apagundi
-"""
-
 # Conditional Statements
 
 a=13
@@ -67,16 +60,3 @@ if a>b:
 else:
     print("No, a is not even greater than b")
     
-
-
-
-
-
-
-
-
-
-
-
-    
-
